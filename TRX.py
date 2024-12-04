@@ -21,7 +21,7 @@ def place_market_order(quantity):
         'symbol': 'trxinr',
         'side': 'buy',
         'type': 'market',
-        'quantity': quantity,
+        'quantity': 100,
         'recvWindow': 5000,
     }
     response = requests.post(f'{TRADE_URL}/order', headers={
