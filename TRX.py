@@ -8,8 +8,8 @@ BASE_URL = 'https://api.wazirx.com'
 TRADE_URL = 'https://api.wazirx.com/api/v2'
 
 # Replace these with your WazirX API key and secret
-API_KEY = 'your_api_key'
-API_SECRET = 'your_api_secret'
+API_KEY = 'ephvHtwUvL80azJB4GStUUumNnbrSodRjh5Icmp3BUTb77cJwc5myPQ0wmZxHUvm'
+API_SECRET = '****************************************'
 
 def get_market_price():
     response = requests.get(f'{BASE_URL}/api/v2/tickers/trxinr')
